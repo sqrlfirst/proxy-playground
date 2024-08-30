@@ -1,66 +1,16 @@
-## Foundry
+# Everything about proxies
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## Sources
 
-Foundry consists of:
+1. [Proxies OpenZeppelin docs](https://docs.openzeppelin.com/contracts/5.x/api/proxy#UUPSUpgradeable)
+2. **Important EIPs**
+    - [ERC-1167: MInimal Proxy Contract](https://eips.ethereum.org/EIPS/eip-1167)
+    - [ERC-1967: Proxy Storage Slots](https://eips.ethereum.org/EIPS/eip-1967)
+    - [ERC-2535: Diamonds, Multi-Facet Proxy](https://eips.ethereum.org/EIPS/eip-2535)
+    - [ERC-7201: Namespaced Storage Layout](https://eips.ethereum.org/EIPS/eip-7201)
+    - [ERC-7511: Minimal Proxy Contract with PUSH0](https://eips.ethereum.org/EIPS/eip-7511)
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+3. **Rareskills articles on upgradeable**
+   - [The Transparent Upgradeable Proxy Pattern Explained in Detail](https://www.rareskills.io/post/transparent-upgradeable-proxy#:~:text=The%20Transparent%20Upgradeable%20Proxy%20is%20a%20design%20pattern%20to%20prevent,admin%20via%20the%20fallback%20function.)
+   - [UUPS: Universal Upgradeable Proxy Standard (ERC-1822)](https://www.rareskills.io/post/uups-proxy)
+   - [Smart Contract Foundry Upgrades with the OpenZeppelin Plugin](https://www.rareskills.io/post/openzeppelin-foundry-upgrades)
